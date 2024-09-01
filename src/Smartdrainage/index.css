@@ -1,0 +1,559 @@
+body {
+  
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  
+}
+
+.logo img {
+  height: 50px;
+  width: 130px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+nav ul li {
+  padding-right: 84px;
+  font-size: 24px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+nav ul li a.active {
+  color: #008fff;
+}
+.drainage{
+  width: 100%;
+  opacity: 3;
+  background-color: black ;
+  
+}
+.section-text{
+  margin-top: -30%;
+  font-size: 30px;
+}
+.head-text{
+  color:#008fff ;
+}
+.text{
+  color: white;
+}
+.btn{
+  background-color: transparent; 
+  color: white; 
+  border: solid 5px #008fff; 
+  border-radius: 20px; 
+  padding: 10px 40px; 
+  font-size: 30px; 
+  cursor: pointer;
+}
+.aboutus{
+  color: #268075;
+  font-size: 24px;
+  margin-top: 15%;
+}
+.sewerage{
+  width: 80%;
+}
+.section{
+  display: flex;
+  margin-left: 5%;
+  
+}
+.mission{
+
+}
+.vision{
+ 
+}
+.about{
+ margin-top: 5%;
+}
+.App{
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+  overflow-x: hidden;
+  margin: 0%;
+}
+.transmission{
+  width: 50%;
+}
+.blockage{
+  color: #008fff;
+}
+.set{
+  color: #268075;
+  margin-left: 8%;
+}
+.rating{
+  display: flex;
+  
+  margin-left: 4%;
+  
+}
+.data{
+  margin-left: 5%;
+}
+.sensor{
+
+  width: 50%;
+}
+.saver{
+  width: 35%;
+  height: 20%;
+
+}
+.bloc {
+  background-color: transparent; 
+  color: black; 
+  border: solid #268075; 
+  border-radius: 2px;
+  /* padding: 20px;  */
+  width: 34%; 
+  margin-left: 32.5%;
+  margin-top: -2%;
+  
+     
+}
+.real-time{
+  background-color: transparent; 
+  color: black; 
+  border: solid #268075; 
+  border-radius: 2px;
+  width: 49%; 
+  margin-left: 25%;
+  margin-top: -2%;
+  
+}
+.prevention{
+  background-color: transparent; 
+  color: black; 
+  border: solid #268075; 
+  border-radius: 2px;
+  width: 49%; 
+  margin-left: 25%;
+  margin-top: -2%;
+  
+}
+.product{
+  color: #268075;
+}
+.drain{
+  width: 40%;
+}
+.device{
+  width: 40%;
+}
+.electronic{
+  width: 40%;
+}
+.ourproduct{
+  display: flex;
+}
+.team{
+  color: #268075; 
+}
+.kur{
+  width: 50%;
+}
+.linet{
+  width: 50%;
+}
+.wato{
+  width: 50%;
+}
+.pictures{
+  display: flex;
+  gap: 5%;
+  margin-left: 5%;
+}
+.images{
+  display: flex;
+  gap: 6%;
+  margin-left: 5%;
+}
+.nyabang{
+  width: 50%;
+}
+.daisy{
+  width: 50%;
+}
+.aline{
+  width: 50%;
+  margin-right: 8%;
+}
+.touch{
+  color: #268075;
+}
+.form-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+
+  
+}
+
+
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #008fff;
+  border-radius: 3px;
+  box-sizing: border-box;
+  display: block;
+  margin-left: 20%;
+}
+
+
+.bt {
+  width: 10%;
+  padding: 10px;
+  background-color: #268075;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin-left: 42%;
+  
+}
+
+button:hover {
+  background-color: #007acc; 
+}
+.joinus{
+  color: #268075;
+}
+.icon{
+display: flex;
+gap: 5%;
+margin-left: 30%;
+}
+.facebook{
+  width: 50%;
+}
+.twitter{
+  width: 50%;
+}
+.instagram{
+  width: 50%;
+  
+}
+.linkedin{
+  width: 50%;
+  margin-top: -3%;
+}
+.log{
+  height: 160px;
+  width: 200px;
+  margin-top: -10%;
+}
+.footer{
+  display: flex;
+  gap: 14%;
+  background-color: #008fff;
+  color: white;
+  margin-top: 5%;
+}
+.foot{
+  background-color: #008fff;
+}
+.footer-text{
+  color: white;
+}
+@media screen and (min-width:0px) and (max-width:300px){
+  header {
+    padding: 20px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav.open {
+    display: block;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+   
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+}
+
+@media screen and (min-width:301px) and (max-width:480px){
+  header {
+    padding: 20px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav.open {
+    display: block;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    background-color:white;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+  .drainage{
+    width: 100%;
+  }
+  .section-text{
+    margin-top: -50%;
+    
+  }
+  .head-text{
+    font-size: 20px;
+  }
+  .text{
+    font-size: 20px;
+  }
+  .btn{
+    padding: 5px;
+    font-size: 20px;
+  }
+  .aboutus{
+    font-size: 20px;
+  }
+  .section{
+    flex-direction: column;
+  }
+  .mission{
+    width: 95%;
+    margin: 4%;
+
+  }
+  .vision{
+    width: 95%;
+    margin-left: 2%;
+   
+  }
+  .set{
+    font-size: 15px;
+  }
+  .rating{
+    flex-direction: column;
+  }
+  .data{
+    margin-left: 0%;
+
+  }
+  .saver{
+    width: 50%;
+  }
+  .bloc{
+    width: 49%;
+    margin-left: 25%;
+  }
+  .product{
+    font-size: 30px;
+  }
+  .ourproduct{
+    flex-direction: column;
+  }
+  .pictures{
+    flex-direction: column;
+  }
+  .images{
+    flex-direction: column;
+  }
+  .touch{
+    font-size: 22px;
+  }
+  .bt{
+    width: 35%;
+    padding: 6px 20px;
+    margin-left: 30%;
+  }
+  .joinus{
+    font-size: 22px;
+    
+  }
+  .icon{
+    flex-direction: column;
+    margin-left: 3%;
+    
+  }
+  .facebook{
+    width: 30px;
+  }
+  .twitter{
+    width: 40px;
+  }
+  .instagram{
+    width: 40px;
+  }
+  .linkedin{
+    width: 40px;
+  }
+  .footer{
+    flex-direction: column;
+  }
+  .log{
+    margin-top: 2%;
+  }
+ 
+
+
+}
+@media screen and (min-width:481px) and (max-width:680px){
+  .header {
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+
+  .logo img {
+    height: 40px;
+    width: auto;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    padding-right: 0;
+    font-size: 18px;
+    padding: 10px 0;
+  }
+
+  .section-text {
+    font-size: 24px;
+    margin-top: -20%;
+  }
+
+  .btn {
+    font-size: 20px;
+    padding: 8px 20px;
+  }
+
+  .aboutus, .product, .team {
+    font-size: 20px;
+  }
+
+  .pictures, .images {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .bt {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width:681px) and (max-width:800px){
+  header {
+    padding: 20px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav.open {
+    display: block;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
+@media screen and (min-width: 801px) and (max-width:880px){
+
+}
+@media screen and (min-width:881px) and (max-width:1020px){
+
+}
+@media screen and (min-width:1021px) and (max-width:1250px){
+
+}
+
+@media screen and (min-width:1251px) and (max-width:1500px){
+
+}
