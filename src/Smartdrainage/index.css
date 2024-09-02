@@ -40,6 +40,18 @@ nav ul li a {
 nav ul li a.active {
   color: #008fff;
 }
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color:black;
+  margin-bottom: 5px;
+}
 .drainage{
   width: 100%;
   opacity: 3;
@@ -304,6 +316,7 @@ margin-left: 30%;
     top: 80px;
     left: 0;
     right: 0;
+    background-color: gainsboro;
    
   }
 
@@ -351,6 +364,9 @@ margin-left: 30%;
 
   .hamburger {
     display: flex;
+    
+    
+    
   }
   .drainage{
     width: 100%;
